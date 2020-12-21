@@ -1,0 +1,76 @@
+.container {
+	margin-top: 40px;
+}
+
+.columns {
+	margin-top: 5px;
+	padding: 10px;
+	text-align: center;
+}
+
+img {
+	width: 100px;
+	filter: grayscale(100%);
+}
+
+.socialIcons {
+	align-items: center;
+	padding: 20px;
+}
+
+.fa-linkedin:before {
+	font-size: 20px;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-github:before {
+	font-size: 20px;
+}
+
+.fa-github {
+	color: rgb(255, 255, 255);
+}
+
+.fa-linkedin {
+	color: rgb(255, 255, 255);
+}
+
+.img-size {
+	background-size: contain;
+	padding-top: 50%;
+	padding: 0%;
+}
+
+/* Style all font awesome icons */
+
+.fa {
+	text-align: center;
+	text-decoration: none;
+	margin: 2px;
+	background-color: rgb(0, 0, 0);
+	padding: 10px;
+}
+
+h5 {
+	padding-top: 20px;
+}
+
+.card {
+	background-color: rgb(0, 0, 0);
+	/* box-shadow: 2.5px 5px 4px #5f5f5f; */
+	border: 10px solid white;
+	color: rgb(255, 255, 255);
+}
+
+.card:hover {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+
+.box {
+	width: 400px;
+	position: relative;
+}

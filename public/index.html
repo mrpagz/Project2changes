@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body class="slideShow">
+
+    <nav class="nav">
+        <ul>
+            <li><a href="/about">About</a></li>
+            <li><a href="/my_movies">My Movies</a></li>
+            <li><a href="/">Home</a></li>
+        </ul>
+    </nav>
+
+    <div class="center">
+        <h1>Movie Buddy</h1>
+        <form>
+            <input type="text" placeholder="Search Movie" value="">
+            <button id="submitBtn" class="white">Submit</button>
+        </form>
+    </div>
+
+    <div id="movies-view" class="hide">
+        <div class="movie">
+            <h1 id="title"></h1>
+            <img src="" alt="" id="poster" class="img1">
+            <p>Rated: <span id="rated"></span></p>
+            <p>Released: <span id="released"></span></p>
+            <p id="plot"></p>
+        </div>
+        <button class="btn" id="saveBtn">Add to my List</button>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
