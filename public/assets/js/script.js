@@ -11,13 +11,13 @@ function displayMovieInfo() {
   var movie = $("input").val();
   
   var queryURL = "https://www.omdbapi.com/?t=" + movie + "&apikey=b05256b3";
-  console.log(queryURL)
+  // console.log(queryURL)
   // Creating an AJAX call for the specific movie button being clicked
   $.ajax({
     url: queryURL,
     method: "GET"
   }).then(function (response) {
-    console.log(response);
+    // console.log(response);
 
     $("#title").text(response.Title)
     $("#rated").text(response.Rated);

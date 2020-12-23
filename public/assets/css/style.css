@@ -14,6 +14,10 @@
       background-color: white;
 }
 
+.whiteFont{
+    color: white
+}
+
 li{
     display: inline;
     padding-right: 20px;
@@ -78,8 +82,7 @@ a:link, a:hover, a:visited, a:active{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
    color: black;
-   background-color: white;
- 
+   background-color: white; 
 }
 .pTag{
     text-align: center;

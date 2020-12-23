@@ -1,7 +1,6 @@
 DROP DATABASE IF EXISTS moviebuddy_db;
 CREATE DATABASE moviebuddy_db;
 USE moviebuddy_db;
-
 CREATE TABLE movies
 (
 	id int NOT NULL AUTO_INCREMENT,
@@ -11,5 +10,6 @@ CREATE TABLE movies
     plot varchar(255) NULL,
 	poster varchar(255) NULL,
 	deleted BOOLEAN DEFAULT false,
+	watched BOOLEAN DEFAULT false,
 	PRIMARY KEY (id)
 );

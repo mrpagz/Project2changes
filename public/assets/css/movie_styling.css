@@ -1,0 +1,77 @@
+p{
+    color: white;
+    font-size: 18px;
+    
+
+}
+button{
+      background-color: white;
+      margin: 10px;
+      width: 140px;
+      text-align: center !important;
+      font-size: 12px;
+      padding:10px
+    }
+ li{
+        display: inline;
+        padding-right: 20px;
+        float: right;
+    }
+a:link, a:hover, a:visited, a:active{
+        text-decoration: none;
+        color: white;
+    }
+    
+.nav{
+        position:fixed;
+        top: 0px;
+        right:0;
+        padding-top: 10px;
+        font-family: 'Playfair Display', serif;
+        background-color: black;
+        width: 100%;
+      
+    }
+    
+.background{
+      background-image: url("https://media1.fdncms.com/inlander/imager/u/original/19342015/film1-1-7fe7131179351189.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+    } 
+
+h1{ font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 25px;
+    
+
+   }
+.row{
+      margin: 20px;
+      background-color: black;
+      padding:20px;
+      border: 5px solid white
+  }
+.container{
+    margin-top:70px;
+    width: 70%;
+    border: 10px solid white;
+    padding: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+  }
+.title{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+
+  }
+  .padding{
+      padding-top:30px;
+
+  }
