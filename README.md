@@ -22,8 +22,11 @@ The current world pandemic situation makes people more then ever search for ente
 To install this application run the following command on the terminal:
 
 `$ npm install`
-
-`$ npm start`
+`$ npm install sequelize`
+`$ npm install express`
+`$ npm install sequelize`
+`$ npm install mysql`
+`$ npm install mysql2`
 
 ## Usage
 
